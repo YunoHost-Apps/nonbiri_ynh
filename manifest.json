@@ -10,11 +10,11 @@
     "url": "https://github.com/rs1703/nonbiri",
     "upstream": {
         "license": "free",
-        "website": "https://example.com",
+        "website": "https://github.com/rs1703/nonbiri",
         "demo": "https://demo.example.com",
         "admindoc": "https://yunohost.org/packaging_apps",
         "userdoc": "https://yunohost.org/apps",
-        "code": "https://some.forge.com/example/example"
+        "code": "https://github.com/rs1703/nonbiri"
     },
     "license": "free",
     "maintainer": {
