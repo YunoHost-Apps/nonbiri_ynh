@@ -1,13 +1,13 @@
 {
-    "name": "Example app",
-    "id": "example",
+    "name": "nonbiri",
+    "id": "nonbiri",
     "packaging_format": 1,
     "description": {
-        "en": "Explain in *a few (10~15) words* the purpose of the app or what it actually does (it is meant to give a rough idea to users browsing a catalog of 100+ apps)",
+        "en": "Nonbiri is a self-hosted back-end and front-end for MangaDex. Just something I made for myself because MangaDex's new UI is bloated piece of hot garbage. The back-end itself is lightweight because of Go's garbage collector (< 100MB)",
         "fr": "Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'objectif est de donner une idée grossière pour des utilisateurs qui naviguent dans un catalogue de 100+ apps)"
     },
-    "version": "1.0~ynh1",
-    "url": "https://example.com",
+    "version": "0.1.8~ynh1",
+    "url": "https://github.com/rs1703/nonbiri",
     "upstream": {
         "license": "free",
         "website": "https://example.com",
@@ -18,8 +18,8 @@
     },
     "license": "free",
     "maintainer": {
-        "name": "John doe",
-        "email": "john.doe@example.com"
+        "name": "ld3z",
+        "email": "ldez@cdezselfhosted.pw"
     },
     "requirements": {
         "yunohost": ">= 4.3.0"
