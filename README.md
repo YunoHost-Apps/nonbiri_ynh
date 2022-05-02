@@ -59,9 +59,7 @@ Library and history are stored locally, Nonbiri will not push follows and readin
 
 The developer of this application does not have any affiliation with the content providers available.
 
-**Shipped version:** 1.0~ynh1
-
-**Demo:** https://demo.example.com
+**Shipped version:** 0.1.8~ynh1
 
 
 ## Screenshots
@@ -91,12 +89,12 @@ The developer of this application does not have any affiliation with the content
 
 ## Documentation and resources
 
-* Official app website: https://example.com
+* Official app website: https://github.com/rs1703/nonbiri
 * Official user documentation: https://yunohost.org/apps
 * Official admin documentation: https://yunohost.org/packaging_apps
 * Upstream app code repository:  https://some.forge.com/example/example
 * YunoHost documentation for this app: https://yunohost.org/app_example
-* Report a bug: https://github.com/YunoHost-Apps/example_ynh/issues
+* Report a bug: https://github.com/ld3z/sakuramanga_ynh/issues
 
 ## Developer info
 
