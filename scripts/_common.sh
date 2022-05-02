@@ -5,7 +5,7 @@
 #=================================================
 
 # dependencies used by the app
-pkg_dependencies="gcc nodejs yarn go"
+pkg_dependencies="gcc nodejs yarn golang"
 
 #=================================================
 # PERSONAL HELPERS
