@@ -29,15 +29,12 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-![Nonbiri](https://raw.githubusercontent.com/rs1703/nonbiri/gh-pages/1.png)
-
 _The UI is inspired by [Tachiyomi](https://github.com/tachiyomiorg/tachiyomi) (Please use that if you want to read manga on mobile devices)._
 
 # Nonbiri
 
 Nonbiri is a self-hosted back-end and front-end for MangaDex. Just something I made for myself because MangaDex's new UI is bloated piece of hot garbage. The back-end itself is lightweight because of Go's garbage collector (< 100MB).
 
-![Memory usage](https://raw.githubusercontent.com/rs1703/nonbiri/gh-pages/2.png)
 
 ## Features
 
@@ -65,9 +62,9 @@ The developer of this application does not have any affiliation with the content
 ## Screenshots
 
 
-   ![](./doc/screenshots/example.jpg)
+   ![Memory usage](https://raw.githubusercontent.com/rs1703/nonbiri/gh-pages/2.png)
 
-
+![Nonbiri](https://raw.githubusercontent.com/rs1703/nonbiri/gh-pages/1.png)
 
 
 ## Disclaimers / important information
