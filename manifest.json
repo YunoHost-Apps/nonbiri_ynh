@@ -19,7 +19,7 @@
     "license": "free",
     "maintainer": {
         "name": "ld3z",
-        "email": "ldez@cdezselfhosetd.pw"
+        "email": "ldez@cdezselfhosted.pw"
     },
     "requirements": {
         "yunohost": ">= 4.3.0"
