@@ -13,7 +13,6 @@
         "website": "https://github.com/rs1703/nonbiri",
         "demo": "https://demo.example.com",
         "admindoc": "https://yunohost.org/packaging_apps",
-        "userdoc": "https://yunohost.org/apps",
         "code": "https://github.com/rs1703/nonbiri"
     },
     "license": "Apache-2.0",
