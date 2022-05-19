@@ -9,14 +9,14 @@
     "version": "0.1.8~ynh1",
     "url": "https://github.com/rs1703/nonbiri",
     "upstream": {
-        "license": "free",
+        "license": "Apache-2.0",
         "website": "https://github.com/rs1703/nonbiri",
         "demo": "https://demo.example.com",
         "admindoc": "https://yunohost.org/packaging_apps",
         "userdoc": "https://yunohost.org/apps",
         "code": "https://github.com/rs1703/nonbiri"
     },
-    "license": "free",
+    "license": "Apache-2.0",
     "maintainer": {
         "name": "ld3z",
         "email": "ldez@cdezselfhosted.pw"
@@ -26,9 +26,7 @@
     },
     "multi_instance": true,
     "services": [
-        "nginx",
-        "php7.3-fpm",
-        "mysql"
+        "nginx"
     ],
     "arguments": {
         "install" : [
@@ -46,28 +44,6 @@
                 "name": "is_public",
                 "type": "boolean",
                 "default": true
-            },
-            {
-                "name": "language",
-                "type": "string",
-                "ask": {
-                    "en": "Choose the application language",
-                    "fr": "Choisissez la langue de l'application"
-                },
-                "choices": ["fr", "en"],
-                "default": "en"
-            },
-            {
-                "name": "admin",
-                "type": "user"
-            },
-            {
-                "name": "password",
-                "type": "password",
-                "help": {
-                    "en": "Type password here.",
-                    "fr": "Utilisez le champ aide pour ajouter une information à l'intention de l'administrateur à propos de cette question."
-                }
             }
         ]
     }
