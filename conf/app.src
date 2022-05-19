@@ -2,6 +2,6 @@ SOURCE_URL=https://github.com/rs1703/nonbiri/releases/download/v0.1.8/nonbiri_li
 SOURCE_SUM=60ed02f5bd13e499b6f018b451ff83ad5cc54a102fd8fb7f85fc7c468834ac65
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=zip
-SOURCE_IN_SUBDIR=true
+SOURCE_IN_SUBDIR=false
 SOURCE_FILENAME=nonbiri
 SOURCE_EXTRACT=true
