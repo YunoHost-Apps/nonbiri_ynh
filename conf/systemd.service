@@ -6,8 +6,8 @@ After=network.target
 Type=simple
 User=__APP__
 Group=__APP__
-WorkingDirectory=__FINALPATH__/
-ExecStart=__FINALPATH__/nonbiri_linux-amd64
+WorkingDirectory=__INSTALL_DIR__/
+ExecStart=__INSTALL_DIR__/nonbiri_linux-amd64
 StandardOutput=append:/var/log/__APP__/__APP__.log
 StandardError=inherit
 
