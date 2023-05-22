@@ -11,9 +11,6 @@ maintainers = ["ld3z"]
 
 [upstream]
 license = "Apache-2.0"
-website = "https://github.com/rs1703/nonbiri"
-demo = "https://demo.example.com"
-admindoc = "https://yunohost.org/packaging_apps"
 code = "https://github.com/rs1703/nonbiri"
 
 [integration]
