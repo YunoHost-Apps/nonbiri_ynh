@@ -38,8 +38,8 @@ ram.runtime = "50M"
 [resources]
         [resources.sources.main]
         in_subdir = false
-        amd64.url = "https://github.com/rs1703/nonbiri/releases/download/v0.1.8/nonbiri_linux-amd64.zip"
-        amd64.sha256 = "60ed02f5bd13e499b6f018b451ff83ad5cc54a102fd8fb7f85fc7c468834ac65"
+        url = "https://github.com/rs1703/nonbiri/releases/download/v0.1.8/nonbiri_linux-amd64.zip"
+        sha256 = "60ed02f5bd13e499b6f018b451ff83ad5cc54a102fd8fb7f85fc7c468834ac65"
 
     [resources.ports]
     main.default = 42071
