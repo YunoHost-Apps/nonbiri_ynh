@@ -32,7 +32,7 @@ Nonbiri is a self-hosted back-end and front-end for MangaDex. Just something I m
 
 ## Screenshots
 
-![Screenshot of Nonbiri](./doc/screenshots/example.jpg)
+![Screenshot of Nonbiri](./doc/screenshots/screenshots.png)
 
 ## Documentation and resources
 
