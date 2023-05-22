@@ -1,9 +1,10 @@
-Some long and extensive description of what the app is and does, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Nonbiri is a self-hosted back-end and front-end for MangaDex. Just something I made for myself because MangaDex's new UI is bloated piece of hot garbage. The back-end itself is lightweight because of Go's garbage collector (< 100MB).
 
 ### Features
 
-- Ut enim ad minim veniam, quis nostrud exercitation ullamco ;
-- Laboris nisi ut aliquip ex ea commodo consequat ;
-- Duis aute irure dolor in reprehenderit in voluptate ;
-- Velit esse cillum dolore eu fugiat nulla pariatur ;
-- Excepteur sint occaecat cupidatat non proident, sunt in culpa."
+- Online/offline read and browse MangaDex
+- History tracker and scheduled updates
+- Chapters and covers are automatically downloaded/cached forever
+- Real-time synchronization between tabs/browsers and computers
+- Long strip, right-to-left and left-to-right reading modes
+- Customizable keyboard shortcuts for navigating between pages and chapters
