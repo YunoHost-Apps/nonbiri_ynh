@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # Nonbiri for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/nonbiri.svg)](https://dash.yunohost.org/appci/app/nonbiri) ![Working status](https://ci-apps.yunohost.org/ci/badges/nonbiri.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/nonbiri.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/nonbiri.svg)](https://dash.yunohost.org/appci/app/nonbiri) ![Working status](https://ci-apps.yunohost.org/ci/badges/nonbiri.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/nonbiri.maintain.svg)
+
 [![Install Nonbiri with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=nonbiri)
 
 *[Lire ce readme en français.](./README_fr.md)*

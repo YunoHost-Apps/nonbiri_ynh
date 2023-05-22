@@ -5,15 +5,16 @@ It shall NOT be edited by hand.
 
 # Nonbiri pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/nonbiri.svg)](https://dash.yunohost.org/appci/app/nonbiri) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/nonbiri.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/nonbiri.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/nonbiri.svg)](https://dash.yunohost.org/appci/app/nonbiri) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/nonbiri.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/nonbiri.maintain.svg)
+
 [![Installer Nonbiri avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=nonbiri)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Nonbiri rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Nonbiri rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 Nonbiri is a self-hosted back-end and front-end for MangaDex. Just something I made for myself because MangaDex's new UI is bloated piece of hot garbage. The back-end itself is lightweight because of Go's garbage collector (< 100MB).
 
@@ -31,9 +32,9 @@ Nonbiri is a self-hosted back-end and front-end for MangaDex. Just something I m
 
 **Démo :** https://demo.example.com
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de Nonbiri](./doc/screenshots/example.jpg)
+![Capture d’écran de Nonbiri](./doc/screenshots/example.jpg)
 
 ## Avertissements / informations importantes
 
@@ -52,9 +53,9 @@ Nonbiri is a self-hosted back-end and front-end for MangaDex. Just something I m
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://github.com/rs1703/nonbiri>
-* Documentation officielle de l'admin : <https://yunohost.org/packaging_apps>
-* Dépôt de code officiel de l'app : <https://github.com/rs1703/nonbiri>
+* Site officiel de l’app : <https://github.com/rs1703/nonbiri>
+* Documentation officielle de l’admin : <https://yunohost.org/packaging_apps>
+* Dépôt de code officiel de l’app : <https://github.com/rs1703/nonbiri>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_nonbiri>
 * Signaler un bug : <https://github.com/YunoHost-Apps/nonbiri_ynh/issues>
 
@@ -70,4 +71,4 @@ ou
 sudo yunohost app upgrade nonbiri -u https://github.com/YunoHost-Apps/nonbiri_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
