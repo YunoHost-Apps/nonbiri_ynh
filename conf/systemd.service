@@ -8,8 +8,7 @@ User=__APP__
 Group=__APP__
 WorkingDirectory=__INSTALL_DIR__/
 ExecStart=__INSTALL_DIR__/nonbiri_linux-amd64
-StandardOutput=append:/var/log/__APP__/__APP__.log
-StandardError=inherit
+Restart=on-failure
 
 # Sandboxing options to harden security
 # Depending on specificities of your service/app, you may need to tweak these
