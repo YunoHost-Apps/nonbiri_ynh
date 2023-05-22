@@ -1,0 +1,52 @@
+packaging_format = 2
+
+id = "nonbiri"
+name = "Nonbiri"
+description.en = "Self-hosted back-end and front-end for MangaDex"
+description.fr = "Back-end et front-end auto-hébergés pour MangaDex"
+
+version = "0.1.8~ynh1"
+
+maintainers = ["ld3z"]
+
+[upstream]
+license = "Apache-2.0"
+code = "https://github.com/rs1703/nonbiri"
+
+[integration]
+yunohost = ">= 11.1.19"
+architectures = ["amd64"]
+multi_instance = false
+ldap = false
+sso = false
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    #[install.path]
+    #type = "path"
+    #default = "/nonbiri"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+        [resources.sources.main]
+        in_subdir = false
+        url = "https://github.com/rs1703/nonbiri/releases/download/v0.1.8/nonbiri_linux-amd64.zip"
+        sha256 = "60ed02f5bd13e499b6f018b451ff83ad5cc54a102fd8fb7f85fc7c468834ac65"
+
+    [resources.ports]
+    main.default = 42071
+    
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
