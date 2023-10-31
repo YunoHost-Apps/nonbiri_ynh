@@ -34,10 +34,14 @@ Nonbiri is a self-hosted back-end and front-end for MangaDex. Just something I m
 
 ![Screenshot of Nonbiri](./doc/screenshots/screenshots.png)
 
+## :red_circle: Antifeatures
+
+- **Upstream not maintained**: This software is not maintained anymore. Expect it to break down over time, be exposed to unfixed security breaches, etc.
+
 ## Documentation and resources
 
 * Upstream app code repository: <https://github.com/rs1703/nonbiri>
-* YunoHost documentation for this app: <https://yunohost.org/app_nonbiri>
+* YunoHost Store: <https://apps.yunohost.org/app/nonbiri>
 * Report a bug: <https://github.com/YunoHost-Apps/nonbiri_ynh/issues>
 
 ## Developer info
